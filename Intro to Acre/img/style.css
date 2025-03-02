@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --black :#f50000;
+}
+
+.Color-bar{
+    display: flex;
+    flex-direction: row;
+    .Color-Claret{
+        background-color:#720026;
+        width: 300px;
+        height: 8px;
+    }
+    
+    .Color-Amarant{
+        background-color:#CE4257;
+        width: 300px;
+        height: 8px;
+    }
+    .Color-Coral{
+        background-color:#FF7F51;
+        width: 300px;
+        height: 8px;
+    }
+    .Color-Sandy-Brown{
+        background-color:#FF9B54;
+        width: 300px;
+        height: 8px;
+    }
+    .Color-Sage{
+        background-color:#4C956C;
+        width: 300px;
+        height: 8px;
+    }
+}
+
+.Menu-Tab{
+    margin: 50px;
+    border-color: black;
+}
+
+.About-me-description {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    text-indent: 50px;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+.About-me{
+    margin: 0 auto;
+    max-width: 960px;
+    height: 200px;
+    font-size: 24px;
+    text-align: justify;
+    text-indent: 50px;
+    font-family: "Raleway", sans-serif;
+    padding: 20px;
+}
+
+.Top-bar{
+    margin: 20px;
+    text-align: justify;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+
+    /* Selector inside Selector */
+    .Select :hover{
+        display: inline;
+        text-decoration: dotted;
+        background-color: #CE4257;
+        font-family: "Raleway", sans-serif;
+        text-underline-offset: 3px;
+    }
+}
+
+/* .Box{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    overflow: scroll;
+} */
+
+/* Get Connected Button */
+.Get-Connected{
+    margin: 0 auto;
+    max-width: 960px;
+    text-align:center;
+    display: inline;
+    border-color: #720026;
+    background-color: #CE4257;
+    border-radius: 5px;
+    padding: 5px;
+    /* Selector inside Selector */
+    .Mail{
+        color: black;
+        text-decoration: none;
+        font-family: "Raleway", sans-serif;
+    }
+}
