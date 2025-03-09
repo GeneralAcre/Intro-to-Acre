@@ -1,0 +1,393 @@
+/* IMPORT FONT */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* Reset CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+
+body{
+    background-color: #faeeee;
+}
+
+.Color-bar{
+    display: flex;
+    flex-direction: row;
+    .Color-Claret{
+        background-color:#720026;
+        width: 20%;
+        height: 8px;
+    }
+    
+    .Color-Amarant{
+        background-color:#CE4257;
+        width: 20%;
+        height: 8px;
+    }
+    .Color-Coral{
+        background-color:#FF7F51;
+        width:  20%;
+        height: 8px;
+    }
+    .Color-Sandy-Brown{
+        background-color:#FF9B54;
+        width: 20%;
+        height: 8px;
+    }
+    .Color-Sage{
+        background-color:#4C956C;
+        width:  20%;
+        height: 8px;
+    }
+}
+
+
+.About-me{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 24px;
+    text-align: justify;
+    padding: 20px;
+    align-content: center;
+
+}
+
+.About-me-description {
+    font-size: 18px;
+    text-align: justify;
+    text-indent: 50px;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+
+nav {
+    height: 40px;
+    margin: 20px;
+    text-align: justify;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+
+    /* Selector inside Selector */
+    .Menu {
+        display: flex;
+        list-style: none;
+        text-decoration: dotted;
+        font-family: "Raleway", sans-serif;
+        text-underline-offset: 3px;
+    }
+    /* เข้าถึง Tag li ให้มีช่องว่างแต่ละ box 10 px */
+    .Menu li {
+        margin-left: 15px;
+    }
+    /* เข้าถึง Tag A ลบเส้นใต้ออก */
+    .Menu li a {
+        text-decoration:none; 
+    }
+    .Menu li :hover{
+        background-color: coral;
+        text-decoration: dotted;
+    }
+    
+}
+/* Get Connected Button */
+.Get-Connected{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #CE4257;
+    border-radius: 5px;
+    padding: 5px;
+    /* Selector inside Selector */
+    .Mail{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-size: 16px;
+
+    }
+}
+
+
+/* Project Page */
+
+.header{
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.Projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 24px;
+    text-align: justify;
+    padding: 20px;
+    align-content: center;
+    margin-bottom: 10px;
+
+    .Stacks-header{
+        font-size: 18px;
+        margin: 20px;
+    }
+
+    .Projects-Update{
+        font-size: 14px;
+        margin-top: 20px;
+        text-decoration: #4C956C;
+
+    }
+
+}
+
+.Stacks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 18px;
+    text-align: justify;
+    align-content: center;
+    margin: 30px;
+    font-style: normal;
+
+    .Stacks-logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+
+}
+.My_Picture{
+    width:300px ;
+    height: 400px;
+    object-fit: contain;
+    margin: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-color: #faeeee;
+}
+
+.Stacks-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+
+    .JavaScript{
+        width: 100px;
+        height: 100px;
+        object-fit: contain;
+        margin: 20px;
+    }
+
+    .HTML{
+        width: 100px;
+        height: 100px;
+        object-fit: contain;
+        margin: 20px;
+    }
+
+    .CSS{
+        width: 100px;
+        height: 100px;
+        object-fit: contain;
+        margin: 20px;
+        padding: 20px;
+
+    }
+    .MySQL{
+        width: 100px;
+       height: 100px;
+       object-fit: contain;
+       margin: 20px;
+   }
+}
+
+.Activity-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 24px;
+    text-align: justify;
+    align-content: center;
+    padding-top: 20px;
+
+}
+
+.Badges-container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.card{
+    width: 250px;
+    background-color: #720026;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    margin: 50px;
+}
+
+.card-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px;
+
+
+}
+
+.card-content h4{
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+}
+
+.View-Badge{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #CE4257;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 20px;
+    font-weight: 500;
+}
+
+.Achievements-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 24px;
+    text-align: justify;
+    padding: 20px;
+    align-content: center;
+    margin-bottom: 10px;
+}
+
+.Project-container{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.Project-item{
+    width: 474px;
+    background-color: #720026;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+.Project-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px;
+
+}
+.Project-item h4{
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+}
+.View-Project{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #CE4257;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 20px;
+    font-weight: 500;
+}
+
+.Project-item p{
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    text-decoration: #fff;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.Frontend{
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Databases{
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Social-Media{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    object-fit: contain;
+    margin: 20px;
+    padding: 15px;
+}
+
+.Contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    .Linkedin{
+        width: 30px;
+        height: 30px;
+        margin: 20px;
+    }
+    
+    .Snapchat{
+        width: 30px;
+        height: 30px;
+        margin: 20px;
+    }
+    
+    .Instagram{
+        width: 30px;
+        height: 30px;
+        margin: 20px;
+    }
+}
