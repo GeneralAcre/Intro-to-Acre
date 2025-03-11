@@ -183,7 +183,6 @@ nav {
     flex-direction: column;
     border-color: #faeeee;
 }
-
 .Stacks-logo{
     display: flex;
     justify-content: space-between;
@@ -390,4 +389,14 @@ img{
         height: 30px;
         margin: 20px;
     }
+}
+
+.Badges-Update{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-size: 14px;
+    margin: 20px;
+    
 }
